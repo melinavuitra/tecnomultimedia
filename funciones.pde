@@ -11,7 +11,6 @@ void cargarImagenes() {
   img10 = loadImage ("10.jpg");
   img11 = loadImage ("11.jpg");
   img12 = loadImage ("12.jpg");
-  imgplay = loadImage ("imgplay.png");
 }
 
 void imagen2 () {
