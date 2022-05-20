@@ -1,7 +1,7 @@
 //Créditos de: //<>//
 //https://www.youtube.com/watch?v=NZ1ywY1jWsY&t=19s&ab_channel=Armandochannel
 //Bob Esponja - La pelicula
-PImage img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, imgplay;
+PImage img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12;
 int   desvanecer, opacidad2, opacidad3, opacidad4, opacidad5, opacidad6, opacidad7, opacidad8, opacidad9, opacidad10, opacidad11;
 PFont txt1;
 float vel;
