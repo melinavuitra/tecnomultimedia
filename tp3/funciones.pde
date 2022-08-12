@@ -61,11 +61,20 @@ void mesaDeJuego() {
   fill(0);
   textSize(20);
   //muestro nivel
-  text("Nivel: " + nivel + " de " + cantNiveles , 80, 40);
+  mostrarNivel(80,40);
   //muestra ejemplo
-  text("¡Buscame!", 451, 20);
+  mostrarEjemplo(451,20,50);
+  
+}
+
+void mostrarNivel (int posx, int posy) {
+  text("Nivel: " + nivel + " de " + cantNiveles , posx, posy);
+}
+
+void mostrarEjemplo (int posx, int posy, int tamCircle) {
+  text("¡Buscame!", posx, posy);
   fill(colores[nivel], 255, 255);
-  circle (450, 80, 50);
+  circle (450, 80, tamCircle);
 }
 
 void mouseClicked() {
