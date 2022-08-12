@@ -1,4 +1,7 @@
 //LINK AL VIDEO : https://youtu.be/hu6USZDIscs
+//UTILICÉ FUNCIONES CON PARÁMETROS PARA MOSTRAR LOS TEXTOS DE LA CABECERA
+//EN LA FUNCIÓN mesaDeJuego();
+
 
 //mannejar la saturacion del color de las pelotas de despiste
 float resta;
